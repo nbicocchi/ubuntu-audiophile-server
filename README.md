@@ -22,5 +22,5 @@ $ [sudo] password for username: ...
 
 ## Use
 
-* The machine is ready for render music to your dac (Bubble Upnp, Audirvana). I designed it as a pure upnp audio renderer.
-* Eventually, copy your music to /home/your_username/Music and will be seen by mpd (WinSCP, gFTP, CyberDuck)
+* The server is ready for render upnp streams to your dac. It is compatible with standard upnp sources and controllers such as Bubble Upnp or Audirvana. 
+* Despite I designed it as a pure upnp audio renderer, it is possible to copy your music to /home/your_username/Music and will be seen by mpd. For transferring music you can use popular software such as WinSCP, gFTP, CyberDuck.
