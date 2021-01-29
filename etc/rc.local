@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cpupower frequency-set --governor performance
+renice --priority -20 --pid $(cat /var/run/mpd/pid)
+echo 3072 > /sys/class/rtc/rtc0/max_user_freq
+echo 3072 > /proc/sys/dev/hpet/max-user-freq
+
+exit 0
