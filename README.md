@@ -2,9 +2,10 @@
 
 ## Features
 
-* Headless, upnp renderer based on Ubuntu-server and mpd
-* Easy to install and maintain
-* All changes to the stock version are visible and contained in this repository
+* Upnp renderer based on Ubuntu-server (low latency kernel) and mpd
+* Headless, stripped down
+* Includes music optimizations already tested in AP-Linux and RaspyFi
+* Easy to install and maintain: all changes to the stock version are contained in this repository
 
 ## Installation
 
