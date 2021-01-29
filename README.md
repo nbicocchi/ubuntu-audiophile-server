@@ -3,6 +3,7 @@
 ## Features
 
 * Upnp renderer based on Ubuntu-server (low latency kernel) and mpd
+* Replaces the (noisy) USB cable between PC/Mac and DAC with an ethernet cable (less noisy). For optimal performance, power the server with a dedicated linear PSU.
 * Headless, stripped down
 * Includes music optimizations already tested in AP-Linux and RaspyFi
 * Easy to install and maintain: all changes to the stock version are contained in this repository
