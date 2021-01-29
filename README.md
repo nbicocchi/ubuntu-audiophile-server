@@ -10,7 +10,7 @@
 
 ## Installation
 
-* Install on your machine a plain Ubuntu Server. This mod has been tested with Ubuntu Server 20.04 but should work fine with other versions. 
+* Install a stock Ubuntu Server. This mod has been tested with Ubuntu Server 20.04 but should work fine with other versions. 
 * During the installation process, use the defaults, do not install any additional service, and create a user as requested. Installation of security fixes can be eventually skipped.
 * Once the installation process is finished, log on the server and provide the following commands:
 
