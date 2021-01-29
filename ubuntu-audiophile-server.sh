@@ -32,4 +32,4 @@ sudo apt-get -y clean
 echo ""
 echo "Process complete! Press any key to reboot."
 read
-#sudo reboot
+sudo reboot
