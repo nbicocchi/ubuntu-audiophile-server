@@ -2,8 +2,7 @@
 
 ## Features
 
-* Headless upnp renderer based on mdp
-* Based on stock Ubuntu Server
+* Headless, upnp renderer based on Ubuntu-server and mpd
 * Easy to install and maintain
 * All changes to the stock version are visible and contained in this repository
 
@@ -14,7 +13,7 @@
 * Log on the machine and provide the following commands:
 
 ```
-$ git https://github.com/nbicocchi/...
+$ git https://github.com/nbicocchi/ubuntu-audiophile-server.git
 $ cd ubuntu-audiophile-server.sh
 $ chmod 755 ./ubuntu-audiophile-server.sh
 $ ./ubuntu-audiophile-server.sh
