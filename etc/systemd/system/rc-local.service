@@ -1,7 +1,7 @@
 [Unit]
 Description=/etc/rc.local Compatibility
 ConditionPathExists=/etc/rc.local
-After=mpd.service mpd.socket
+After=_RENDER_.service
 
 [Service]
 Type=forking
