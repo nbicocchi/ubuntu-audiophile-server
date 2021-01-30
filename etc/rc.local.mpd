@@ -1,0 +1,6 @@
+#!/bin/bash
+
+renice --priority -20 --pid $(cat /var/run/mpd/pid)
+mpc update
+
+exit 0

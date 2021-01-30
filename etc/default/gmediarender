@@ -1,7 +1,7 @@
 # Configuration for gmediarender
 
 # User and group the daemon will be running as.
-DAEMON_USER="_USERNAME_:audio"
+DAEMON_USER="nobody:audio"
 
 # Device name as it will be advertised to and shown in the UPnP controller UI.
 # Some string that helps you recognize the player, e.g. "Livingroom Player"
@@ -21,4 +21,4 @@ ALSA_DEVICE="sysdefault"
 # You can pass extra arguments to the daemon
 # For example, you can specify a logfile with this line
 # (though you need to ensure correct permissions for a log file yourself.)
-# DAEMON_EXTRA_ARGS="--logfile /var/log/gmediarender.log"
+# DAEMON_EXTRA_ARGS=""

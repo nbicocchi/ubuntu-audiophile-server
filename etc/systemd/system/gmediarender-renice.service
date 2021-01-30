@@ -1,0 +1,14 @@
+[Unit]
+Description=gmediarender renice
+ConditionPathExists=/etc/rc.local.gmediarender
+After=gmediarender.service
+
+[Service]
+Type=forking
+ExecStart=/etc/rc.local.gmediarender
+TimeoutSec=0
+StandardOutput=tty
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

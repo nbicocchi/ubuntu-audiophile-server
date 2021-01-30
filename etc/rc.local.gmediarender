@@ -1,0 +1,5 @@
+#!/bin/bash
+
+renice --priority -20 --pid $(pgrep gmediarender)
+
+exit 0

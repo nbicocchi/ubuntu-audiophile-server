@@ -1,0 +1,14 @@
+[Unit]
+Description=mpd renice
+ConditionPathExists=/etc/rc.local.mpd
+After=mpd.service
+
+[Service]
+Type=forking
+ExecStart=/etc/rc.local.mpd
+TimeoutSec=0
+StandardOutput=tty
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
