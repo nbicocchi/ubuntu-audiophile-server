@@ -41,8 +41,16 @@ mkdir -p /home/$USERNAME/Music
 sudo cp -r etc/ /
 sudo sed -i "s/_USERNAME_/$USERNAME/g" /etc/mpd.conf
 sudo systemctl disable ondemand
+
+sudo systemctl enable mpd.service
 sudo systemctl enable mpd-renice.service
+sudo systemctl enable gmediarender.service
 sudo systemctl enable gmediarender-renice.service
+
+sudo systemctl start mpd.service
+sudo systemctl start mpd-renice.service
+sudo systemctl start gmediarender.service
+sudo systemctl start gmediarender-renice.service
 
 # clean up
 sudo apt-get -y autoremove
@@ -50,6 +58,10 @@ sudo apt-get -y clean
 
 # reboot
 echo ""
+echo "Refer to /proc/asound/cards to see the list of sound cards"
+echo "Update /etc/mpd.conf accordingly"
+echo "Update /etc/default/gmediarender accordingly"
+
 echo "Process complete! Press any key to reboot."
 read
 sudo reboot
